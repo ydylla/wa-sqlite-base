@@ -1,0 +1,24 @@
+{
+  "name": "wa-sqlite-base",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Abstract base implementation for a wa-sqlite VFS",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/ydylla/wa-sqlite-base",
+  "author": "Yannick Dylla",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
